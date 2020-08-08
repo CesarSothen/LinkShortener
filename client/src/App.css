@@ -1,0 +1,64 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css";
+
+body {
+  background-image: url("./img/bg.jpg");
+  background-size: 100vw;
+}
+
+button {
+  background-color: rgb(214, 201, 186);
+}
+
+.button {
+  background-color: white;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.redirectPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  padding-top: 5rem;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.buttonContainer {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.generatedLink {
+  display: flex;
+  flex-direction: row;
+}
+
+.generatedLink * {
+  padding: 0;
+  margin: 0;
+  font-size: larger;
+}
+
+.generatedLink input {
+  margin-right: 1rem;
+}
